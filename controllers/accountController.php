@@ -7,24 +7,36 @@
 	class accountController
 	{
 		
-		public function Register(){
-			return true;
+		public function Register($name,$password,$email,$phone){
+			
 		}
 
-		public function Login(){
-			return true;
+		public function Login($email,$password){
+			
 		}
 
 		public function Logout(){
-			return true;
+			
 		}
 
-		public function Edit(){
-			return true;
+		public function Edit($id,$name,$email,$password,$phone,$money,$type,$status){
+			
 		}
 
-		public function Delete(){
-			return true;
+		public function Delete($id){
+			
+		}
+
+		public function Lock($id){
+
+		}
+
+		public function Unlock($id){
+			
+		}
+
+		public function PayWithCard($id){
+			
 		}
 		
 	}

@@ -52,7 +52,7 @@
     }
 
      // Hàm lấy 1 dòng dữ liệu từ câu SELECT
-     function fetch(){
+     function Fetch(){
         //Kiểm tra đã có kết quả trả về từ câu truy vấn chưa
         if($this->result){
             $data = mysqli_fetch_array($this->result);
